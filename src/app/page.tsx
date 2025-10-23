@@ -41,6 +41,10 @@ export default async function Home() {
       <section className="bg-white h-[730px]">
         
       </section>
+
+      <footer className="bg-green-950 h-[50px] text-center flex items-center justify-center">
+        <h3 className="text-white font-mono font-bold">Created by Gabriel & Marina | All right's reserved ©</h3>
+      </footer>
     </main>
   );
 }
