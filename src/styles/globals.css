@@ -1,8 +1,12 @@
-@import url('https://fonts.cdnfonts.com/css/the-chatalestick');
+@import url('https://fonts.cdnfonts.com/css/amazon-ember');
 
 @import "tailwindcss";
 
 @theme {
   --font-sans: var(--font-geist-sans), ui-sans-serif, system-ui, sans-serif,
     "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+  --color-navbar: #111111;
+  --color-scndnavbar: #232F3E;
+  --color-bodyamazon: #dce4e4;
+  --font-amazon: 'Amazon Ember', 'sans-serif';
 }
