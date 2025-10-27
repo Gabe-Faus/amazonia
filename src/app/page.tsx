@@ -53,8 +53,14 @@ export default async function Home() {
           </div>
         </div>
 
-        {/* Segunda navbar */}
-        <div className="h-10 bg-scndnavbar"></div>
+        {/* Second navbar */}
+        <div className="h-10 bg-scndnavbar flex flex-row items-center justify-center gap-30">
+          <h1 className="font-amazon text-bodyamazon font-bold cursor-pointer">About us</h1>
+          <h1 className="font-amazon text-bodyamazon font-bold cursor-pointer">Talk to us</h1>
+          <h1 className="font-amazon text-bodyamazon font-bold cursor-pointer">Find us</h1>
+          <a className="text-blue-500 font-amazon font-bold cursor-pointer" href="https://www.amazon.com.br/">Amazon</a>
+        </div>
+
       </nav>
 
 
