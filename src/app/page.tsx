@@ -4,8 +4,8 @@ import Link from "next/link";
 import { LatestPost } from "@/app/_components/post";
 import { auth } from "@/server/auth";
 import { api, HydrateClient } from "@/trpc/server";
-
-
+import FAQSection from './_components/FAQSection';
+import ContactFormSection from './_components/ContactFormSection';
 
 
 export default async function Home() {
@@ -184,6 +184,12 @@ export default async function Home() {
           </div>
         </div>
       </section>
+
+      {/* FAQ Marina Pimentel - 222014071 */}
+      <FAQSection />
+
+      {/* Form Marina Pimentel - 222014071 */}
+      <ContactFormSection />
 
       {/* Footer Gabriel Pessoa Faustino - 231006121 */}
       <footer>
