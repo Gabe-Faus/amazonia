@@ -19,15 +19,15 @@ const faqs = [
 
 const FAQSection: React.FC = () => {
   return (
-    <section className="py-20 bg-gray-50">
-      <div className="container mx-auto px-4 max-w-4xl">
+    <section className="py-20 bg-bodyamazon">
+      <div className="container mx-auto px-4 font-amazon max-w-4xl">
         {/* Título da Seção */}
-        <h2 className="text-4xl font-bold text-center mb-12 text-gray-800">
+        <h2 className="text-4xl font-amazon font-bold text-center mb-12 text-gray-800">
           Dúvidas Frequentes
         </h2>
         
         {/* Card de Conteúdo */}
-        <div className="bg-white p-8 shadow-lg rounded-xl">
+        <div className="bg-white p-8 font-amazon shadow-2xl rounded-xl">
           {faqs.map((faq, index) => (
             <AccordionItem 
               key={index}

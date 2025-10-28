@@ -14,7 +14,7 @@ const AccordionItem: React.FC<AccordionItemProps> = ({ question, answer }) => {
     <div className="border-b border-gray-200 py-4">
       {/* Botão de Pergunta */}
       <button
-        className="flex justify-between items-center w-full text-left font-semibold text-lg text-gray-800 hover:text-black transition-colors focus:outline-none"
+        className="flex justify-between items-center w-full font-amazon text-left font-semibold text-lg text-gray-800 hover:text-black transition-colors focus:outline-none"
         onClick={() => setIsOpen(!isOpen)}
       >
         <span>{question}</span>
@@ -26,7 +26,7 @@ const AccordionItem: React.FC<AccordionItemProps> = ({ question, answer }) => {
       <div 
         className={`overflow-hidden transition-all duration-500 ease-in-out ${isOpen ? 'max-h-96 opacity-100 mt-2' : 'max-h-0 opacity-0'}`}
       >
-        <p className="text-gray-600">
+        <p className="text-gray-600 font-amazon">
           {answer}
         </p>
       </div>
