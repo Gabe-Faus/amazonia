@@ -11,6 +11,8 @@ import PlanSection from "./_components/Plans";
 import HeroSection from "./_components/HeroSection";
 import AboutSection from "./_components/AboutSection";
 import Footer from "./_components/Footer";
+import OurDifferenceSection from './_components/OurDifferenceSection';
+import CommitmentSection from './_components/CommitmentSection';
 
 
 export default async function Home() {
@@ -34,6 +36,12 @@ export default async function Home() {
 
       {/* What we do Section - Gabriel Pessoa Faustino -231006121*/}
       <AboutSection/>
+
+      {/* OurDifference Marina Pimentel - 222014071 */}
+      <OurDifferenceSection/>
+
+      {/* CommitmentSection Marina Pimentel - 222014071 */}
+      <CommitmentSection/>
 
       {/* Plans Gabriel Pessoa Faustino - 231006121 */}
       <PlanSection/>

@@ -11,21 +11,21 @@ const ContactFormSection: React.FC = () => {
       className="py-20 bg-bodyamazon"
     >
       <div className="container mx-auto font-amazon px-4 max-w-xl">
-        {/* Título da Seção */}
-        <h2 className="text-4xl font-bold font-amazon text-center mb-4 text-gray-800">
-          Fale Conosco
+        {/* Título */}
+        <h2 className="text-gray-900 font-amazon font-extrabold text-4xl mb-12 text-center">
+          Contact Us 
         </h2>
         <p className="text-center font-amazon text-gray-600 mb-10">
-          Tem alguma dúvida que não encontramos? Use o formulário abaixo.
+          Do you have a question we haven't covered? Please use the form below.
         </p>
 
-        {/* Card do Formulário */}
+        {/* Formulário */}
         <div className="bg-white p-8 shadow-2xl rounded-xl font-amazon">
           <form className="space-y-6">
             {/* Campo Nome */}
             <div>
               <label htmlFor="name" className="block text-sm font-amazon font-medium text-gray-700">
-                Nome
+                Name
               </label>
               <input
                 type="text"
@@ -53,7 +53,7 @@ const ContactFormSection: React.FC = () => {
             {/* Campo Mensagem */}
             <div>
               <label htmlFor="message" className="block text-sm font-amazon font-medium text-gray-700">
-                Mensagem
+                Message 
               </label>
               <textarea
                 id="message"
@@ -64,12 +64,12 @@ const ContactFormSection: React.FC = () => {
               ></textarea>
             </div>
 
-            {/* Botão de Envio */}
+            {/* Botão */}
             <button
               type="submit"
-              className="w-full bg-black text-white py-3 px-4 rounded-lg font-semibold hover:bg-gray-800 transition duration-150"
+              className="w-full bg-black text-white py-3 px-4 rounded-lg font-semibold hover:bg-white hover:text-black transition duration-150"
             >
-              Enviar Mensagem
+              Send Massage 
             </button>
           </form>
         </div>
